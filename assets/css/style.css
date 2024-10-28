@@ -1,0 +1,114 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.canvas{
+    height:100vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+    background-color: black;
+}
+.cuerpo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    align-items:center;
+    height:50vh;
+    width: 30vw;
+    margin:10px;
+}
+.grafica{
+    background-color: black;
+    height:50vh;
+    width: 30vw;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 12vw;
+    color: azure;
+    background-color: black;
+}
+hr {
+    border: 1px solid rgba(51, 49, 49, 0.842); 
+    width: 100%; 
+}
+h4{
+    color:aliceblue;
+    font-size: 14px;
+    font-weight: 400;
+}
+.principal{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color:  rgb(87, 86, 86);
+    align-items:center;
+    height:60vh;
+    width: 20vw;
+    padding:10px;
+    border-radius: 10px;
+}
+.titulo{
+    font-size: 22px;
+    font-weight: 400;
+    color: azure;
+}
+
+.coin{
+    width: 15vw;
+    height: 5vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;        
+    text-align: center;
+    font-size: 24px;
+    border-radius: 5px;
+}
+.divisas_combo_box{    
+    width: 15vw;
+    height: 5vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;        
+    text-align: left;
+    font-size: 16px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.boton_accion{    
+    width: 15vw;
+    height: 5vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;        
+    text-align: center;
+    font-size: 24px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.resultado_accion{
+    color:aliceblue;
+    font-size: 19px;
+    font-weight: 400;
+   
+}

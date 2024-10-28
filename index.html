@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converción de Divisas</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="canvas">
+        <div class="cuerpo">
+            <div class="header">
+                <h1>Conversor de Monedas Nacional</h1>
+                <hr>
+            </div>
+            <div class="principal">
+                <div class="titulo">Pesos CLP</div>
+                <div class="divisa"><input type="text" maxlength="12" class="coin" name="moneda" oninput="formatearMoneda(this)" value="0"></div>
+                <div class="titulo_small"><h4>Moneda a convertir:</h4></div>
+                <div class="divisa"><select name="cmb_divisas" class="divisas_combo_box"></select></div>
+                <div class="accion"><button class="boton_accion" onclick="convertir()">Convertir</button></div>
+                <div class="resultado"><p><span class="resultado_accion">...</span></p></div>
+            </div>
+        </div>
+        <div class="grafica">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+</body>
+<script src="./assets/js/funciones.js"></script>
+</html>
