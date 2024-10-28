@@ -1,0 +1,7 @@
+-> Encontre una api que muestra los valores hostoricos para cada moneda con respecto a otra base.
+   Se me dificulto el hecho que la API solo actuaba para un dia especifico. Pude ejecutar la api para 
+   los 10 dias anteriores, y unirlos en una nuevo Json, pero pasaron 2 coas:
+   1) Se demoraba mucho en ejecutar 10 veces las api
+   2) No logre formatear la estructura para que se le pudiera traspasar al grafico.
+
+   Saludos.
